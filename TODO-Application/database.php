@@ -43,7 +43,7 @@
     }
 
     function connectdatabase() {
-        return mysqli_connect("127.0.0.1:3306", "dhiraj", "------", "todo");
+        return mysqli_connect("127.0.0.1:3306", "dhiraj", "pass.1.11", "todo");
     }
 
     function loggedin() {
@@ -51,6 +51,7 @@
     }
 
     function logout() {
+        $_SESSION['error'] = "&nbsp; Succesfully logout !!";
         unset($_SESSION['username']);
     }
 
@@ -137,7 +138,7 @@
     {
         $capcode = $_SESSION['captcha'];
 
-        if(strcmp($usercaptcha,$capcode)==0)
+        if(!strcmp($usercaptcha,$capcode))
         {
             if(validuser($username, $password))
             {
@@ -170,7 +171,7 @@
         if ($result and mysqli_num_rows($result) > 0) {
             while($row = mysqli_fetch_assoc($result)) {
 
-                spaces(10);
+                spaces(15);
                 if($row['done']) {
                     echo "<input type='checkbox' checked class='largerCheckbox' name='check_list[]' value='".$row["taskid"] ."'>";
                 }
@@ -182,7 +183,7 @@
             }
         }
         echo "</pre> <hr>";
-        spaces(22);
+        spaces(35);
         echo "<input type='submit' name='Delete' value='Delete'/>";
         spaces(10);
         echo "<input type='submit' name='Save' value='Save'/>";

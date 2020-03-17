@@ -35,8 +35,8 @@
 <body>
 	<br>
 	<form action="todo.php" method="POST">
-		<?php spaces(10); ?>
-		<input type="text" size="80" placeholder=" Title" name="description" autocomplete="off"/>	
+		<?php spaces(30); ?>
+		<input type="text" size="50" placeholder=" Title" name="description" autocomplete="off"/>	
         <input type="submit" name="addtask" value="Add"/>
     </form>
 </body>

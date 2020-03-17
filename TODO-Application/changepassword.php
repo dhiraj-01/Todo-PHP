@@ -28,7 +28,7 @@
 	   		updatepassword($username, $new);
 	   	}
 	   	else {
-	   		$_SESSION['error'] = "&nbsp; Invalid password !!";
+	   		$_SESSION['error'] = "&nbsp; Invalid old password !!";
 	        header("Refresh:0");
 	   	}
 	    mysqli_close($conn);

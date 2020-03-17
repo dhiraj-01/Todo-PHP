@@ -18,9 +18,9 @@
     <?php error(); ?>
 
     <center>
+    <form action="valid.php" method="POST">
     <fieldset>
-    <legend style="color: blue;"> Login </legend>
-        <form action="valid.php" method="POST">
+        <legend style="color: blue;"> Login </legend>
             <table>
                 <tbody>
                     <tr>
@@ -48,8 +48,8 @@
                     </tr>
                 </tbody>
             </table>
-        </form>
     </fieldset>
     </center>
+    </form>
 </body>
 
