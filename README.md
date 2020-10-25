@@ -1,5 +1,15 @@
 # TodoList-in-PHP
-simple todo list application with php and mysql database.
-
-Video Link
-[Click here](https://youtu.be/ui3Bh1-ZnkA)
+<ul>
+    <li>
+        Simple todo list application.
+    </li>
+    <li>
+        Basic CRUD operations on task, create account, delete account, change password etc.
+    </li>
+    <li>
+        Project demo : https://youtu.be/ui3Bh1-ZnkA
+    </li>
+    <li>
+        Technology used : Php and Mysql database
+    </li>
+</ul>
