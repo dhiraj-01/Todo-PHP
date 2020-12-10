@@ -10,6 +10,6 @@
         Project demo : https://youtu.be/ui3Bh1-ZnkA
     </li>
     <li>
-        Technology used : Php and Mysql database
+        Technology used : Php and Mysql database, html, css
     </li>
 </ul>
