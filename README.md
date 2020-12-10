@@ -6,7 +6,7 @@
 
 ### How to run ?
 - install PHP, Mysql.
-- create Mysql database.
+- create Mysql database tables.
 - download this repository.
 - add your database in `database.php` => `connectdatabase()` function.
 - open cmd prompt and goto this folder
